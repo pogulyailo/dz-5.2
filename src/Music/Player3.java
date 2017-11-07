@@ -1,6 +1,6 @@
 package Music;
 
-public class Player3 extends Mp3players{
+public class Player3 extends Mp3players {
     private final double price;
 
     public Player3(String song, String[] playlist, double price) {
@@ -11,13 +11,24 @@ public class Player3 extends Mp3players{
     public double getPrice() {
         return price;
     }
-    public void playList() {
-        String[] getPlaylist;
 
-        if (getPlaylist() != null)
-            getPlaylist = getPlaylist();
+    public void playSong() {
+        String getSong;
+
+        if (getSong() != null)
+            getSong = getSong();
         else
-            getPlaylist = " select folder ";
-        System.out.println("Playing: " + getPlaylist);
+            getSong = " select folder ";
+        System.out.println("Playing: " + getSong);
+    }
+
+    public void playAllSongs() {
+        String playlist[] = new String[0];
+
+        for (String name : playlist) {
+            setSong(name);
+            playSong();
+            System.out.println("Playing: " + playlist[1]);
+        }
     }
 }
