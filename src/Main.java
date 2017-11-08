@@ -9,6 +9,7 @@ public class Main {
         Player3 player3 = new Player3("The best Song", playList,100.0);
         Player4 player4 = new Player4("The best Song", playList,100.0);
         Player5 player5 = new Player5("Super Song", playList,100.0);
+        Player6 player6 = new Player6("Super Song", playList,100.0);
 
 
         player1.playSong();
@@ -19,6 +20,8 @@ public class Main {
         player4.playAllSongs();
         player5.playSong();
         player5.playAllSongs();
+        player6.playSong();
+        player6.playAllSongs();
     }
 
 }

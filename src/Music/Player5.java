@@ -22,7 +22,7 @@ public class Player5 extends Mp3players{
         String[] currentPlaylist = getPlaylist();
 
         for (currentPlaylist = getPlaylist(); currentPlaylist < getPlaylist().length; currentPlaylist--){
-            String name;
+            String name : currentPlaylist;
 
             System.out.println("Player5 Playing: " + name);
         }
