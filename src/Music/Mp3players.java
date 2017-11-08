@@ -4,6 +4,9 @@ public class Mp3players {
     private String song;
     private String [] playlist;
 
+    public Mp3players() {
+    }
+
     public Mp3players(String song, String[] playlist) {
         this.song = song;
         this.playlist = playlist;

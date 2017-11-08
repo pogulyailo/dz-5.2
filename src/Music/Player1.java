@@ -4,8 +4,7 @@ public class Player1 extends Mp3players {
 
     private final double price;
 
-    public Player1(String song, String[] playlist, double price) {
-        super(song, playlist);
+    public Player1(double price) {
         this.price = price;
     }
 
@@ -13,13 +12,12 @@ public class Player1 extends Mp3players {
         return price;
     }
 
-    public void playSong(){
-        String getSong;
-
-        if(getSong() != null)
-            getSong = getSong();
-        else
-            getSong = " select a song ";
-        System.out.println("Playing: " + getSong);
+    @Override
+    public String getSong() {
+        return super.getSong();
     }
-}
+
+    public void playSong() {
+       System.out.println("Player1 Playing: " + getSong());
+        }
+    }
