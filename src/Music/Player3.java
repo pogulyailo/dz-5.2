@@ -13,7 +13,6 @@ public class Player3 extends Mp3players {
     }
 
     public void playSong() {
-        String getSong;
 
         String [] currentPlaylist = getPlaylist();
         System.out.println("Player3 Playing: " + currentPlaylist[0] );

@@ -12,10 +12,9 @@ public class Player4 extends Mp3players{
         return price;
     }
     public void playSong() {
-        String getSong;
 
         String [] currentPlaylist = getPlaylist();
-        System.out.println("Player4 Playing: " + currentPlaylist[2] );
+        System.out.println("Player4 Playing: " + currentPlaylist[currentPlaylist.length-1]);
     }
 
     public void playAllSongs() {
