@@ -30,6 +30,7 @@ public class Player6 extends Mp3players {
     }
 
    public void Shuffle(String[] args) {
+
         String[] currentPlaylist = getPlaylist();
         int index;
         String temp;
