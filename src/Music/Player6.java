@@ -30,13 +30,12 @@ public class Player6 extends Mp3players {
     }
 
    public void Shuffle(String[] args) {
-
         String[] currentPlaylist = getPlaylist();
         int index;
         String temp;
 
        Random random = new Random();
-        for (int i = currentPlaylist.length - 1; i > 0; i--) {
+        for (int i = currentPlaylist.length - 1; i >= 0; i--) {
           index = random.nextInt(i + 1);
             temp = currentPlaylist[index];
             currentPlaylist[index] = currentPlaylist[i];

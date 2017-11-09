@@ -22,7 +22,7 @@ public class Main {
         player5.playAllSongs();
         player6.playSong();
         player6.playAllSongs();
-        player6.Shuffle();
+        player6.Shuffle(playList);
     }
 
 }
