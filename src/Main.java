@@ -8,8 +8,8 @@ public class Main {
         Player2 player2 = new Player2(100.0);
         Player3 player3 = new Player3("The best Song", playList,100.0);
         Player4 player4 = new Player4("The best Song", playList,100.0);
-        Player5 player5 = new Player5("Super Song", playList,100.0);
-        Player6 player6 = new Player6("Super Song", playList,100.0);
+        Player5 player5 = new Player5("The best Song", playList,100.0);
+        Player6 player6 = new Player6("The best Song", playList,100.0);
 
 
         player1.playSong();

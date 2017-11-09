@@ -21,10 +21,9 @@ public class Player5 extends Mp3players{
     public void playAllSongs() {
         String[] currentPlaylist = getPlaylist();
 
-        for (currentPlaylist = getPlaylist(); currentPlaylist < getPlaylist().length; currentPlaylist--){
-            String name : currentPlaylist;
+        for (int i = currentPlaylist.length-1; i >= 0; i--){
 
-            System.out.println("Player5 Playing: " + name);
+            System.out.println("Player5 Playing: " + currentPlaylist[i]);
         }
     }
 }
